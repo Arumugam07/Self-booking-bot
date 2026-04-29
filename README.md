@@ -4,8 +4,8 @@
 An automated bot built to help secure hard-to-get slots from (CDC), with a focus on **automation, speed, and cloud deployment (no local machine required)**.
 
 This project is based on:
-- cdc-helper by mfjkri  
-- cdc-bot by Zhannyhong  
+  - cdc-helper by mfjkri  
+  - cdc-bot by Zhannyhong  
 where I forked this repository from.
 
 Refactored and enhanced with additional features and improvements.
