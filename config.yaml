@@ -1,0 +1,50 @@
+two_captcha_config:
+  api_key:     "PASTE_YOUR_2CAPTCHA_KEY_HERE"
+  enabled:     true
+  debug_mode:  true
+  max_retries: 2
+
+telegram_config:
+  telegram_notification_enabled: true
+  telegram_bot_token: "PASTE_YOUR_BOT_TOKEN_HERE"
+  telegram_chat_id:   "PASTE_YOUR_CHAT_ID_HERE"
+
+cdc_login_credentials:
+  username: "PASTE_YOUR_CDC_USERNAME_HERE"
+  password: "PASTE_YOUR_CDC_PASSWORD_HERE"
+
+program_config:
+  auto_reserve:          true
+  auto_restart:          true
+  reserve_for_same_day:  true
+  book_from_other_teams: false
+  refresh_rate:          1800
+  restart_delay_hours:   1
+
+  slots_per_type:
+    simulator : 3
+    practical : 6
+    btt       : 1
+    rtt       : 1
+    ftt       : 1
+    pt        : 1
+
+  monitored_types:
+    simulator : false
+    practical : true    # <-- set true for what you want to monitor
+    btt       : false
+    rtt       : false
+    ftt       : false
+    pt        : false
+
+browser_config:
+  type:          "chrome"
+  headless_mode: false   # keep false first so you can see what's happening
+
+log_config:
+  log_level:                 2
+  print_log_to_output:       true
+  write_log_to_file:         true
+  clear_logs_init:           false
+  appends_stack_call_to_log: false
+  save_solved_captchas:      false
