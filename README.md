@@ -1,4 +1,4 @@
-````markdown
+
 # 🚗 Self Booking Bot (Enhanced)
 
 An automated bot built to help secure hard-to-get slots from (CDC), with a focus on **automation, speed, and cloud deployment (no local machine required)**.
